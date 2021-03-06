@@ -69,6 +69,9 @@ const promptUser = () => {
 // TODO: Create a function to write README file
 const generateREADME = (answers) =>
     `
+### Licenses
+<img width="25" alt="Screen Shot 2021-01-11 at 10 59 23 PM" src="https://img.shields.io/badge/license-${answers.license.replace(/ /g, "%20")}-blue?style=flat-square">
+
 # ${answers.title}
 
 ### Created  by ${answers.username} Github user.
@@ -96,9 +99,6 @@ ${answers.contributors}
 
 ### Tests
 ${answers.tests} 
-
-### Licenses
-<img width="930" alt="Screen Shot 2021-01-11 at 10 59 23 PM" src="https://img.shields.io/badge/license-${answers.license.replace(/ /g, "%20")}-blue?style=flat-square">
 
 ### Reach out for any questions.
 ${answers.email} 
