@@ -22,23 +22,23 @@ const promptUser = () => {
         },
         {
             type: 'input',
-            name: 'Description',
+            name: 'description',
             message: 'Enter a description for your project:',
         },
         {
             type: 'input',
-            name: 'Installation Instructions',
+            name: 'installation',
             message: 'What are the instructions for installation?',
             default: "npm install"
         },
         {
             type: 'input',
-            name: 'Usage',
+            name: 'usage',
             message: 'What commands are need to run?',
         },
         {
             type: 'list',
-            name: 'License',
+            name: 'license',
             message: 'What licenses are needed?',
             choices: [
                 "MIT License",
@@ -50,17 +50,17 @@ const promptUser = () => {
         },
         {
             type: 'input',
-            name: 'Contributing',
+            name: 'contributing',
             message: 'Are there any contributors?',
         },
         {
             type: 'input',
-            name: 'Tests',
+            name: 'tests',
             message: 'What are the test instructions for this package?',
         },
         {
             type: 'input',
-            name: 'Questions',
+            name: 'questions',
             message: 'What is your email for questions?',
         },
     ])
@@ -84,6 +84,7 @@ ${answers.description}
 - License 
 - Questions
 
+
 ### Installation
 ${answers.installation} 
 
@@ -97,7 +98,7 @@ ${answers.contributors}
 ${answers.tests} 
 
 ### Licenses
-<img width="930" alt="Screen Shot 2021-01-11 at 10 59 23 PM" src="https://img.shields.io/badge/license-${answers.licenses.replace(/ /g, "%20")}-blue?style=flat-square">
+<img width="930" alt="Screen Shot 2021-01-11 at 10 59 23 PM" src="https://img.shields.io/badge/license-${answers.license.replace(/ /g, "%20")}-blue?style=flat-square">
 
 ### Reach out for any questions.
 ${answers.email} 
