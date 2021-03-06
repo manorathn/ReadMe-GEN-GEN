@@ -50,7 +50,7 @@ const promptUser = () => {
         },
         {
             type: 'input',
-            name: 'contributing',
+            name: 'contributors',
             message: 'Are there any contributors?',
         },
         {
@@ -70,7 +70,7 @@ const promptUser = () => {
 const generateREADME = (answers) =>
     `
 ### Licenses
-<img width="25" alt="Screen Shot 2021-01-11 at 10 59 23 PM" src="https://img.shields.io/badge/license-${answers.license.replace(/ /g, "%20")}-blue?style=flat-square">
+<img width="65" alt="Screen Shot 2021-01-11 at 10 59 23 PM" src="https://img.shields.io/badge/license-${answers.license.replace(/ /g, "%20")}-blue?style=flat-square">
 
 # ${answers.title}
 

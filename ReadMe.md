@@ -1,6 +1,6 @@
 
 ### Licenses
-<img width="25" alt="Screen Shot 2021-01-11 at 10 59 23 PM" src="https://img.shields.io/badge/license-MIT%20License-blue?style=flat-square">
+<img width="65" alt="Screen Shot 2021-01-11 at 10 59 23 PM" src="https://img.shields.io/badge/license-MIT%20License-blue?style=flat-square">
 
 # ReadMe Gen-Gen
 
@@ -25,7 +25,7 @@ Use "npm init" then "npm install inqurier" for installation.
 node index.js will run 
 
 ### Contributors
-undefined 
+no 
 
 ### Tests
 no 
