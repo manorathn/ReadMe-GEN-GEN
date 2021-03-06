@@ -4,7 +4,7 @@
 ### Created  by manorathn Github user.
 
 ### Description
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://ww 
+As a developer, I wanted to create a ReadMe generator so that I focus on more important task for new projects. 
 
 ## Table of Content
 - Installation
@@ -16,20 +16,20 @@ Your task is to create a command-line application that dynamically generates a p
 
 
 ### Installation
-install inqurier pacakge 
+Use "npm init" then "npm install inqurier" for installation.  
 
 ### How to use.
-npm install inqurier 
+node index.js will run  
 
 ### Contributors
 undefined 
 
 ### Tests
-no 
+no test instructions 
 
 ### Licenses
-<img width="930" alt="Screen Shot 2021-01-11 at 10 59 23 PM" src="https://img.shields.io/badge/license-Mozilla%20Public%20License%201.1%20(MPL%201.1)-blue?style=flat-square">
+<img width="930" alt="Screen Shot 2021-01-11 at 10 59 23 PM" src="https://img.shields.io/badge/license-Boost%20Software%20License%201.0-blue?style=flat-square">
 
 ### Reach out for any questions.
-undefined 
+naphaphonem@outlook.com 
 

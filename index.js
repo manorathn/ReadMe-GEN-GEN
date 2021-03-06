@@ -60,7 +60,7 @@ const promptUser = () => {
         },
         {
             type: 'input',
-            name: 'questions',
+            name: 'email',
             message: 'What is your email for questions?',
         },
     ])
