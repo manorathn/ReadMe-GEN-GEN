@@ -1,5 +1,5 @@
 
-# <p align="center">  undefined </p>
+# [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # ReadMe Gen-Gen
 
@@ -20,16 +20,16 @@ As a developer, I wanted to create a ReadMe generator so that I focus on more im
 Use "npm init" then "npm install inqurier" for installation. 
 
 ### How to use.
- 
+node index.js to run 
 
 ### Contributors
 no 
 
 ### Tests
-no 
+none 
 
 ### Licenses
-undefined
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ### Reach out for any questions.
 naphaphonem@outlook.com 

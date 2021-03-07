@@ -69,7 +69,7 @@ const promptUser = () => {
 // TODO: Create a function to write README file
 const generateREADME = (answers) =>
     `
-# <p align="center">  ${licenseBadge(answers)} </p>
+# ${licenseBadge(answers)}
 
 # ${answers.title}
 
@@ -119,7 +119,7 @@ const init = () => {
 init();
 
 let licenseBadge = (answers) => {
-    if (answers.license === 'MIT') {
+    if (answers.license === 'MIT License') {
         return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
     } else if (answers.license === 'Mozilla Public License 2.0') {
         return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
