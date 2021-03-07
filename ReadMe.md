@@ -34,7 +34,6 @@ none
 ### Reach out for any questions.
 naphaphonem@outlook.com 
 
-![screengrab](https://user-images.githubusercontent.com/63210444/110225500-e19a9600-7e9a-11eb-8250-432a5b328d8a.mov)
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/63210444/110225583-ced49100-7e9b-11eb-80b1-f6b3fd2a8943.gif)
 
 
