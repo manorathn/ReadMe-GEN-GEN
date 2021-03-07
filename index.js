@@ -42,9 +42,9 @@ const promptUser = () => {
             message: 'What licenses are needed?',
             choices: [
                 "MIT License",
-                "Boost Software License 1.0",
-                "Mozilla Public License 1.1 (MPL 1.1)",
+                "Mozilla Public License 2.0",
                 "Eclipse Public License 1.0",
+                "BSD 3-Clause License",
                 "Apache License, Version 2.0"
             ]
         },
@@ -69,8 +69,7 @@ const promptUser = () => {
 // TODO: Create a function to write README file
 const generateREADME = (answers) =>
     `
-### Licenses
-<img width="65" alt="Screen Shot 2021-01-11 at 10 59 23 PM" src="https://img.shields.io/badge/license-${answers.license.replace(/ /g, "%20")}-blue?style=flat-square">
+<p align="center"> # ${licenseBadge(answers)} </p>
 
 # ${answers.title}
 
@@ -80,13 +79,12 @@ const generateREADME = (answers) =>
 ${answers.description} 
 
 ## Table of Content
-- Installation
-- Usage
-- Contributions
-- Tests
-- License 
-- Questions
-
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [License](#license)
+* [Questions](#questions)
 
 ### Installation
 ${answers.installation} 
@@ -100,10 +98,14 @@ ${answers.contributors}
 ### Tests
 ${answers.tests} 
 
+### Licenses
+${licenseBadge(answers)}
+
 ### Reach out for any questions.
 ${answers.email} 
 
-`;
+`
+    ;
 
 // TODO: Create a function to initialize app
 const init = () => {
@@ -111,7 +113,23 @@ const init = () => {
         .then((answers) => writeFileAsync('ReadMe.md', generateREADME(answers)))
         .then(() => console.log('Successfully wrote to ReadMe.md'))
         .catch((err) => console.error(err));
-}
+};
 
 // Function call to initialize app
 init();
+
+let licenseBadge = (answers) => {
+    if (answers.license === 'MIT') {
+        return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+    } else if (answers.license === 'Mozilla Public License 2.0') {
+        return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
+    } else if (answers.license === 'Eclipse Public License 1.0') {
+        return '[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)'
+    } else if (answers.license === 'BSD 3-Clause License') {
+        return '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)'
+    } else if (answers.license === 'Apache License, Version 2.0') {
+        return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+    } else if (answers.license === 'None') {
+        return 'None'
+    }
+}

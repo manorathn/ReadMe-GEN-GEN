@@ -1,6 +1,5 @@
 
-### Licenses
-<img width="65" alt="Screen Shot 2021-01-11 at 10 59 23 PM" src="https://img.shields.io/badge/license-MIT%20License-blue?style=flat-square">
+<p align="center"> # [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) </p>
 
 # ReadMe Gen-Gen
 
@@ -10,13 +9,12 @@
 As a developer, I wanted to create a ReadMe generator so that I focus on more important task for new projects. 
 
 ## Table of Content
-- Installation
-- Usage
-- Contributions
-- Tests
-- License 
-- Questions
-
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [License](#license)
+* [Questions](#questions)
 
 ### Installation
 Use "npm init" then "npm install inqurier" for installation. 
@@ -28,7 +26,10 @@ node index.js will run
 no 
 
 ### Tests
-no 
+none 
+
+### Licenses
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ### Reach out for any questions.
 naphaphonem@outlook.com 
