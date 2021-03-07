@@ -1,9 +1,9 @@
 
-<p align="center"> # [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) </p>
+# <p align="center">  undefined </p>
 
 # ReadMe Gen-Gen
 
-### Created  by manorathn Github user.
+### Created by Github user manorathn.
 
 ### Description
 As a developer, I wanted to create a ReadMe generator so that I focus on more important task for new projects. 
@@ -20,16 +20,16 @@ As a developer, I wanted to create a ReadMe generator so that I focus on more im
 Use "npm init" then "npm install inqurier" for installation. 
 
 ### How to use.
-node index.js will run 
+ 
 
 ### Contributors
 no 
 
 ### Tests
-none 
+no 
 
 ### Licenses
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+undefined
 
 ### Reach out for any questions.
 naphaphonem@outlook.com 

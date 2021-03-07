@@ -69,11 +69,11 @@ const promptUser = () => {
 // TODO: Create a function to write README file
 const generateREADME = (answers) =>
     `
-<p align="center"> # ${licenseBadge(answers)} </p>
+# <p align="center">  ${licenseBadge(answers)} </p>
 
 # ${answers.title}
 
-### Created  by ${answers.username} Github user.
+### Created by Github user ${answers.username}.
 
 ### Description
 ${answers.description} 
